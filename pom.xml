@@ -5,7 +5,7 @@
 
   <groupId>com.yahoo.ycsb</groupId>
   <artifactId>root</artifactId>
-  <version>0.1.4</version>
+  <version>0.1.4-cnic</version>
   <packaging>pom</packaging>
 
   <name>YCSB Root</name>
@@ -44,7 +44,7 @@
   <!-- Properties Management -->
   <properties>
     <maven.assembly.version>2.2.1</maven.assembly.version>
-    <hbase.version>0.92.1</hbase.version>
+    <hbase.version>0.96.1.1-hadoop2</hbase.version>
     <accumulo.version>1.6.0</accumulo.version>
     <cassandra.version>0.7.0</cassandra.version>
     <infinispan.version>7.1.0.CR1</infinispan.version>
@@ -71,7 +71,7 @@
     <!--<module>gemfire</module>-->
     <module>infinispan</module>
     <module>jdbc</module>
-    <module>mapkeeper</module>
+    <!--<module>mapkeeper</module>-->
     <module>mongodb</module>
     <module>orientdb</module>
     <!--module>nosqldb</module-->
